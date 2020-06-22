@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Sam's Blog`,
     author: {
-      name: `Kyle Mathews`,
+      name: `Sam Ouellette`,
       summary: `who lives and works in San Francisco building useful things.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
@@ -12,6 +12,12 @@ module.exports = {
     },
   },
   plugins: [
+{
+  resolve: `gatsby-plugin-netlify-cms`,
+  options: {
+
+  }
+},
     {
       resolve: `gatsby-source-filesystem`,
       options: {
