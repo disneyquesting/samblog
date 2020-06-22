@@ -3,12 +3,12 @@ module.exports = {
     title: `Sam's Blog`,
     author: {
       name: `Sam Ouellette`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      summary: `writing about the experience of life.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    description: `Sam writes about life.`,
+    siteUrl: `https://samoblog.netlify.app//`,
     social: {
-      twitter: `kylemathews`,
+      facebook: `profile.php?id=100009224456732`,
     },
   },
   plugins: [
